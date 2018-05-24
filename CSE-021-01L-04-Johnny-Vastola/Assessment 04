@@ -1,0 +1,21 @@
+
+1.What parts did you copy from Lab 02 (A-F)?
+Nothing
+
+2.What parts did you copy from Lab 03 (A-F)?
+Everything that was needed in the methods
+
+3.How many parts did you change, or create as new (A-F)?
+Nothing except changing MAXCHEESE to amounts.length in my for loops
+
+4.Can changing the declaration of calcSubTotal to the following (and invocation) still work?
+	i.public static double calcSubTotal(double[] p, int[] a) yes
+	ii.public static double calcSubTotal(double[] a, int[] p)yes
+	iii.public static double calcSubTotal(double[] p, double[] a)no
+	iv. public static double calcSubTotal(int[] a, double[] p) no
+	v.public static double calcSubTotal(double[] p1, int[] p2);yes
+	
+5. What must you do so that discount prints out a decimal instead of just an integer?
+Prints out: -Discount: $10.0
+Instead of: -Discount: $10
+change it to a double in the method printTotal and the method discount

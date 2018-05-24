@@ -1,0 +1,12 @@
+1:How many variables did you use?
+	6
+2:How many variable types?
+	2
+3.How did you decide what types each variable should be?
+	Based on what output I needed like money
+4.What is the difference between print and println?
+	println when used a new line is formed where as print will continue on the same line
+5.Did you use both print and println in your program? For what purpose did you use each type of print statement.
+	Yes,print to take the input and println for output that needed separated text
+6.What does the line System.out.println();do?
+	this method  moves to the next line

@@ -1,0 +1,74 @@
+Assessment
+
+1) For the recur method in the SimpleRecursion class, answer the following:
+
+	a. What is the output of version 1 called with argument 0 .
+Entering recur with k = 0
+Recursing with k = 0
+Entering recur with k = 1
+Recursing with k = 1
+Entering recur with k = 2
+Recursing with k = 2
+Entering recur with k = 3
+Recursing with k = 3
+Entering recur with k = 4
+Leaving recur with k = 4
+Leaving recur with k = 3
+Leaving recur with k = 2
+Leaving recur with k = 1
+Leaving recur with k = 0
+	b. What is the output of version 2 called with argument 0 .
+count = 0
+count = 1
+count = 2
+count = 3
+count = 4
+count = 5
+	c. What is the output of version 3 called with argument 0 .
+
+	d. What is the output of version 4 called with argument 0 .
+count = 0
+count = 1
+count = 2
+count = 3
+count = 4
+	
+	e. What is the output of version 5 called with argument 0 .
+count = 0
+	
+	f. What is the output of version 6 called with argument 0 . How can we run all 6 versions at once? (hint: name overloading does not work)
+count = 0
+count = 1
+count = 2
+count = 3
+count = 4
+	call the recur below the current one down to version 1
+2) After filling-in the reverse6 method in the NaiveReverse class, can you think of how to extend this algorithm for reverse7 method? Explain.
+	yes do the same thing for an increased substring or use recursion by calling reverse6
+	
+3) Answer the following questions concerning the reverse9 method given in Task 2:
+	a. A student tests the reverse9 method on the String "confident" . What will it return?
+	ctnedifno
+	b. What should be the proper reversed string for "confident" ?
+	tnedifnoc
+	c. Suggest how to fix the code so the method does it correctly.
+	put the first letter at the end
+	
+4) Answer the following questions concerning the digitCount method in the DigitCount class:
+	a. What is returned from the call digitCount(0) ?
+	1
+	b. What is returned from the call digitCount(10) ?
+	2
+	c. What is returned from the call digitCount(314159) ?
+	6
+	d. Should the digit count increase if the value is 0 ? If not how should the code change
+	no
+	e. What are other values of value for which digit count should not increase? Change the code to include those values.
+	up to 10
+	
+12.2.2, 12.3.3, 12.4.1, 12.5.2 and 12.6.2
+6 1 no
+3 7
+true true false
+false true true
+3 when both are equal

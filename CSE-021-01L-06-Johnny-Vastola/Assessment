@@ -1,0 +1,59 @@
+1)How can you tell a method is a constructor?
+no return type, same name as the class
+
+2) Would public void cheese() be considered a constructor?
+no because the return type is void
+
+3) Does it make sense to have private or void accessor method?
+no because it would get nothing
+
+4) Would public void setName() be a good mutator declaration?
+yeah if it had a parameter
+
+5) How can you tell the difference between instance and class variables?
+class variables apply to all objects of the class while instance variables apply to each object separately
+
+6) Can we write name = name; and what would it mean?
+it would set the instances name to itself and would be pointless
+
+7) How can you tell which version of the constructor is being called?
+By the number of variables used and type of variable
+
+8) What does the . operator do for objects?
+the . operator calls the method of after the . to perform its operation in the object
+
+9) Can you use a loop to implement calcSubTotal ?
+no because we dont have an array for the objects
+
+10) Can you tell when and where we do the recursion in run() ?
+at the end when it asks to redo the order
+
+11) What does this refer to?
+refers to the object
+
+12) What should be the value of numCheese when RunShop terminates (i.e., the output of the println
+statement)?
+3
+13) Give the code to implement public void setName(String name) { ... } .
+public void setName(String name) { 
+		this.name = name;
+	}
+	
+	
+	activities 7.2.3, 7.4.1, 7.7.2 and 7.7.4
+	RunnerInfo runnerJoe = new RunnerInfo(); 
+	RunnerInfo firstRunner = new RunnerInfo();
+	RunnerInfo secondRunner = new RunnerInfo();
+	runner1.setTime(100);
+	4.5
+	
+	public BoardMeasurement() {
+	
+	boardLength = 0.0;
+	boardWidth = 0.0; 
+	boardThickness = 0.0; 
+	
+	FlightInfo flightPlan;
+	flightPlan = new FlightInfo();
+	true true
+

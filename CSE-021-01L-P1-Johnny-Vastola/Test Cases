@@ -1,0 +1,29 @@
+Test Case 1
+I-4:Created Quantities of 1,3,5
+II-1: Input 99 before 2, user might enter inputs other than 1,2,3,4
+II-3: Ordered 2 of item 1 but did not purchase, checked the output items to make sure its 0 itstead of 2(no corruption of the orders)
+II-3; Ordered 2 of each item
+III-3; listed all 5 items
+IV-3; Display summary 
+IV-4: End program
+
+Test Case 2
+III-1: Input 3 before 1
+II-1: Input 2 before 1
+I-1:Create quantity of 1
+I-2; Name item cookie and price $2
+I-3: Discount of 0 and threshhold of 10
+III-2: Input 3 before 2
+I-4: Created Quantity of 2
+II-2: Purchase 100 of item 1 Purchase 0 of item 2
+III-3: Listed 1 item
+IV-3: Display summary
+
+Test Case 3
+IV-1:Input 4 before 1
+I-4:Created Quantities of 4
+III-2: Input 3 before 2
+IV-2: Input 4 before 2
+II-2: Ordered 3 of the first 3 items and 2 of item 4
+III-3: Listed the 4 items
+IV-3:Display Summary

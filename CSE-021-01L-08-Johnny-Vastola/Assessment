@@ -1,0 +1,44 @@
+1) What are the minimal changes required to instantiate ShopArr and invoke run() on it?
+change Shop to ShopArr
+
+2) We can also use a <something>.length instead of max . What is the valid <something> to use in ShopArr.java ?
+cheese
+
+3) How can we tell which instantiation ( new Cheese ) corresponds to which constructor definition inside the Cheese class?
+By the parameters
+
+4) How can we identify a mutator method call?
+object.setX();
+
+5) What would be the result if we added this line right after Swiss is created: cheese[2].setName("Wrong Name"); ?
+it would change the name from "Swiss" to "Wrong name"
+
+6) Why is the init() method both private and void?
+because it is only used in the class and has no return
+
+7) What are the distinguishing features of constructor methods? (i.e., How do we tell them apart from other methods?)
+same name as class no return type
+
+8) How can we figure out the number of required iterations for each loop?
+difference between original i and final
+
+9) Should we pass in Cheese array pointer ( cheese[] ) as arguments into calcSubTotal or itemizedList ? (Why or why not)
+no because its an instance variable and doesn't need to be taken as a parameter
+
+10) What value will be printed by RunShop for “ Ran with Cheese Total ”? (fixed number or a formula)
+the input for the number of cheeses
+
+7.10.4, 7.11.4, and 7.12.2
+False
+True
+True
+False
+False
+True
+False
+
+?????????
+
+ArrayList<Seat> mySeats = new ArrayList<Seat>(); 
+trainSeats.add(new Seat()); 
+ trainSeats.get(0).reserve("John", "Smith", 44);

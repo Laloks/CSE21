@@ -1,0 +1,48 @@
+Arraylist Runner Output
+[a]
+[a,b]
+[a,b,c]
+[a,c]
+[a,c,d]
+[c,d]
+[c,d,e]
+[c,d,e]
+[c,d,e,d]
+[d,e,d]
+[e,d]
+		
+ Assessment
+1.contain Pomeranian objects
+ArrayList<Pomeranian>
+2. contain Pomeranian and Cat objects
+ArrayList<Pet>
+3. contain objects of any of the above types that you can call the eat() method on.
+ArrayList<Pet>
+4. contain GreatDane objects that you will only call the sleep() method on
+ArrayList<GreatDane>
+5. contain Pomeranian and Siamese objects
+ArrayList<Pet>
+6. contain Pomeranian and Siamese objects that you will call yap() and ignoreYou(), as appropriate
+ArrayList<Pet>
+
+Task 4 Think about which of these players will play a better game of Pig. Simulate several games (by executing main of 
+PigSimulator.java) pitting them against each other, and report what happened. Was your prediction correct? 
+RiskyPlayer Should be worse and it is failing nearly every game
+
+Task 6 Test all four players against each other, which will take several simulations. Explain what happened. How did your
+ strategies do? Did you expect to see the results you saw? 
+Strategy1>Strategy2
+ConservativePlayer>Strategy2
+Conservative>Strategy1
+Strategy1>RiskyPlayer
+Strategy2>RiskyPlayer
+Conservative>Strategy1>Strategy2>RiskyPlayer
+The results i saw were unexpected as i expected strategy1 to do the best
+
+Included answers to activities 10.5.1, 10.6.1 and 10.7.1
+10.5.1
+True True
+10.6.1
+Yes No Yes
+10.7.1
+is-a has-a has-an is-a

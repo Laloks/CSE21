@@ -1,0 +1,47 @@
+1) How do you type cast a double into an int ?
+(int)
+
+2) How do you declare an array of int that goes from 10 to 1 ?
+		int[] arri0 = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+
+3) What is the scope of the variable temp declared at line 20 of Lab21_Vars.java ? Where does it need to
+be declared if it is to be used for the if-clause and else-clause?
+if statement
+
+4) What is the scope of the variable total declared in line 29 of Lab21_Vars.java ?
+for loop
+
+5) What is X in the print out “ i value is X ” at line 32 of Lab21_Vars.java ? And why is it that value?
+10 because the for loop ends at i=10
+
+6) What is the logical error in the code at lines 36-42 of Lab21_Vars.java ? (How do you fix it?)
+Cheese is part of the project
+
+7) How many pointers and objects are created in your fixed version of code at lines 36-42 of
+Lab21_Vars.java ?
+2,1
+
+8) What parts are redundant in the code at lines 46-66 of Lab21_Vars.java ?
+The if statements when you can use else because there are only 2 options for each number
+
+9) How do reduce or combine the redundant code at lines 46-66 of Lab21_Vars.java so we have no
+redundancy?
+do each one individually
+
+10) How can we figure out what was the first number for code at lines 46-66 of Lab21_Vars.java ? What
+is the println statement to print the first number?
+		make it a variable
+		System.out.println(first);
+
+11) Give two distinct characteristics of a constructor.
+same as class name, no return type
+
+12) What is the purpose of ‘ . ’ in System.out.println(); or dlist[1].display(); ?
+to separate what is being called from what you are using
+
+13) What happens if you swap the order of the two lines in Lab21_Objects.java ? (and why?)
+dlist[0].display();
+// Goes first
+dlist[0] = new Dummy(); // Goes after
+
+error

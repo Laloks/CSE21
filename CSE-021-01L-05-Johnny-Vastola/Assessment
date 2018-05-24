@@ -1,0 +1,29 @@
+1.What are the return types of the sumAll methods?
+long
+
+2.What relation must be true between lengths of arr and max for the second version of sumAll to work correctly?
+The array must be atleast the length of max
+
+3. What are the return types of the sqareSum methods?
+long
+
+4.What is the use of init(arr) call before calling squareSum(arr,5)?
+it sets all the values in the array to zero after changing them from sumall
+
+5.What are the return types of the fib methods?
+long
+
+6.Why does Fibonacci output start at 2?
+because at 1 it could go outside the bounds of the array
+
+7.What are the return types of the factorial methods?
+long
+
+8.Why does Factorial output start at 2?
+because it could go outside the bounds of the array
+
+9.Why is long[] arr = new long[MAXSIZE]; declared as an array of longs?
+because they may need 64 bits
+
+10.Change MAXSIZE to 10. Does everything still work? If not,how can you fix it?
+It doesnt work but it can be fixed by not trying to use bigger numbers than the array or adding values to the array

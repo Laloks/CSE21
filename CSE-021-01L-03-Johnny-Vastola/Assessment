@@ -1,0 +1,40 @@
+
+1) Answer the following questions about Error.java
+	a. What happens if you add the following line to the program after the declaration of 	MAXCHEESE , where it is set to 10 (in line 7):
+		MAXCHEESE = 20;
+		
+		You will experience an error due to the variable being final and unable to change
+		
+	b. What are the data types of the arrays names, prices and amounts ?
+	
+	 String, double, int -respectively
+	c. How many entries get created for each of the arrays, names , prices and amounts ?
+	
+		The value of MAXCHEESE
+		
+	d. State whether the following statements are valid or invalid:
+		names[3] = 1; invalid
+		prices[3] = 1; valid
+		amounts[3] = 1; valid
+	
+	e. Give the output of the following statements:
+		System.out.println("Cheese "+ 'A' + 10); Cheese A10
+		System.out.println("Cheese "+ (char)'A' + 10); Cheese A10
+		System.out.println("Cheese "+ (int)'A' + 10); Cheese 6510
+		System.out.println("Cheese "+ (char)('A' + 10)); Cheese K
+		System.out.println("Cheese "+ (int)('A' + 10)); Cheese 75
+	
+	f. Why is the initial value of i = 3 ?
+		Because we have the first three values set for our special cheeses
+	
+2) What parts did you copy from Lab 02 (A-F)?
+	The entire thing nearly, just editing parts
+	
+3) What parts did you copy from fixed Error.java (A-F)?
+	The entire thing nearly, just editing parts
+	
+4)How many loops did you use in GenCheeseShop.java ?
+	4
+	
+5)What types of loops did you use in GenCheeseShop.java ?
+	for loops only

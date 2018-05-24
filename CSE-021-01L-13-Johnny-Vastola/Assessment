@@ -1,0 +1,40 @@
+1) For the proc method shown in Task 1, answer the following:
+	a. What is the return type of the method, proc ? What line in the above code can you find this information?
+	2d int array found in line 1
+	
+	b. What is line 3 doing? (Answer in terms of variable name, type and initial value)
+	creating an empty array of name arr
+	
+	c. Why do we need to use try in line 4?
+	because there can be exceptions if there is no file of the name we input or an element that doesnt exist
+
+	d. What line(s) read in the dimension of the matrix?
+	6 and 7
+
+	e. What is line 8 doing?
+	creating the dimensions of the array arr to our specified rows and columns
+	
+	f. Why is there no while-loop in this method, and why we can use a for-loop?
+	we use nexted for loops to loop through each row and column which could be done with a for loop but would be more difficult
+	
+	g. How many times does line 12 get executed? (Answer in terms of an expression involving # rows and # of columns)
+	the number of items in the final array row*column
+	
+2) Answer the following questions concerning the code given in Task 3:
+	
+	a. What does arr2D.length mean?
+	the number of rows
+	
+	b. What does arr2D[0].length mean?
+	the number of columns
+	
+	c. What does arr2D[i][j] + "\t" create?
+	it creates the next element in the array output
+	
+	5.7.3
+	false true false false
+	5.9.2
+	int[][] dataVals = new int[4][7];  
+	28
+	1000
+	dataVals[4][2] = 99;  

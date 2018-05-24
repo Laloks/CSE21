@@ -1,0 +1,49 @@
+1)The Counter class doesn't have a constructor. Why doesn't it need one?
+we dont set any variables except mycount which is always 0
+
+2)The Counter class doesn't have a main . Why doesn't it need one?
+because it is a parent class
+
+3)How do we know ModNCounter inherits from Counter (what is the keyword)?
+extends
+
+4)Which method is the constructor inside ModNCounter class?
+ModNCounter(int n)
+
+5)Is cycleLength variable visible to the parent Counter class?
+No
+
+6)What happens when we call value and reset methods for ModNCounter since it is not defined in ModNCounter ?
+It will call to counter because it extends from it
+
+7) What happens when we call increment and reset methods for ModNCounter2 since it is not defined in ModNCounter2 ?
+It calls counters methods
+
+8) Does decrement exist inside Counter ?
+No
+
+9) Does increment ’s behavior change for DecrementableCounter ?
+No
+
+10) Where is toString being inherited from?
+Object class
+
+10.1.4
+base
+7
+10.2.1
+Yes
+Yes
+No
+Yes
+No
+10.3.1
+GenericItem
+ProduceItem
+super.printItem();
+GenericItem
+10.4.2
+False
+True
+True
+False
